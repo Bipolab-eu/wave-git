@@ -1,8 +1,9 @@
 var yoff = 0.0
-let escala = 50
+let escala = 18
 
 function setup () {
-  createCanvas(24 * escala, 8 * escala)
+  var myCanvas = createCanvas(24 * escala, 8 * escala)
+  myCanvas.parent("container")
 }
 
 function draw() {
